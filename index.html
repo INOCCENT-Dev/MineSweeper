@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mine Sweeper</title>
+    
+    <link rel = "stylesheet" href = "style/general.css">
+    <link rel = "stylesheet" href = "style/header.css">
+    <link rel = "stylesheet" href = "style/game.css">
+
+    <script src = "code.js"> </script>
+
+  </head>
+  <body>
+    <div class = "game">
+      <div class = "header" id = "header">
+        <div class = "input">
+          <input class = "inputWidth" id = "inputWidth" placeholder = "input Width">
+          <input class = "inputHeight" id = "inputHeight" placeholder = "input Height">
+          <input class = "inputMine" id = "inputMine" placeholder = "input Mine">
+        </div>
+        <button class = "button" id = "button">input</button>
+        <div class = "game-info">
+          <div id = "left" class = "left"></div> 
+          <div id = "time" class = "time"></div>   
+        </div>
+      </div>
+      <div class = "game-body">
+        <div class = "container" id = "container">  </div>
+      </div>
+      <div class = "gameOver" id = "gameOver">
+        <div id = "gameEnd" class = "gameEnd"></div>
+        <button id = "retry" >retry</button>
+      </div>
+    </div>
+  </body>
+</html>
