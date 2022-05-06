@@ -146,6 +146,7 @@ window.onload = function(){
           openCellValue[cellXY.y][cellXY.x] = cellValue[cellXY.y][cellXY.x];
           let isPlayerWin = false;
           isGameRun = false; // game stop
+          openAllMine(gameSetting); // show all mine
           showGameEnd(isPlayerWin); // game over
           break;
         default :
@@ -225,6 +226,16 @@ window.onload = function(){
         }
       }
     }
+  }
+
+  // show all mine
+  function openAllMine(setting){
+    for(let y = 0; y < setting.height; y ++){
+      for(let x = 0; x < setting.width; x ++){
+        if(cellValue[y][x] == 'M') openCellValue[y][x] = 'M';
+      }
+    }
+    fillCell(gameSetting);
   }
 
   // game main function
