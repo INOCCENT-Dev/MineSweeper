@@ -27,7 +27,7 @@
   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(129, 169, 255);
+  border-color: rgb(236, 182, 2);
 
   font-size: 20px;
   font-weight: bold;
@@ -58,7 +58,7 @@
   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(129, 169, 255);
+  border-color: rgb(236, 182, 2);
 
   width: 100px;
   height: 40px;
@@ -67,14 +67,14 @@
   font-weight: bold;
 
   color: white;
-  background-color: rgb(129, 169, 255);
+  background-color: rgb(236, 182, 2);
 
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .gameOver button:hover{
-  color: rgb(129, 169, 255);
+  color: rgb(236, 182, 2);
   background-color: white;
 }
 

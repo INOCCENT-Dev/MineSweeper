@@ -40,9 +40,9 @@
   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(129, 169, 255);
+  border-color: rgb(236, 182, 2);
 
-  background-color: rgb(129, 169, 255);
+  background-color: rgb(236, 182, 2);
 
   color: white;
   font-size: 15px;
@@ -59,7 +59,7 @@
 }
 
 .button:hover{
-  color: rgb(129, 169, 255);
+  color: rgb(236, 182, 2);
   background-color: white;
 }
 
