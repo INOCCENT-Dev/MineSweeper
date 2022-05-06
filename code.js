@@ -232,7 +232,7 @@ window.onload = function(){
   function openAllMine(setting){
     for(let y = 0; y < setting.height; y ++){
       for(let x = 0; x < setting.width; x ++){
-        if(cellValue[y][x] == 'M') openCellValue[y][x] = 'M';
+        if(cellValue[y][x] == 'M' && openCellValue[y][x] != 'F') openCellValue[y][x] = 'M';
       }
     }
     fillCell(gameSetting);
